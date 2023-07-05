@@ -7,18 +7,6 @@ layout: home
 
 Welcome to my personal documentation website.
 
-## Documentation TODO Topics
-
-- [x] How to prioritize work
-- [x] When tests are required
-- [x] When documentation is required
-- [ ] When creating an issue is required
-- [ ] What should Git commit messages look like
-- [ ] Version control
-- [ ] Naming conventions
-- [ ] Security auditing
-- [ ] Debugging
-
 ## Prioritization
 
 I use the [MoSCoW method](https://draft.io/example/moscow-method) to prioritize work, which categorizes tasks as **Must do**, **Should do**, **Could do**, or **Won't do**. I find it useful to label issues with these categories, and use the GitLab issue board to display the categories in a column view.
