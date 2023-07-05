@@ -9,7 +9,7 @@ Welcome to my personal documentation website.
 
 ## Prioritization
 
-I use the [MoSCoW method](https://draft.io/example/moscow-method) to prioritize work, which categorizes tasks as **Must do**, **Should do**, **Could do**, or **Won't do**. I find it useful to label issues with these categories, and use the GitLab issue board to display the categories in a column view.
+I use a variation of the [MoSCoW method](https://draft.io/example/moscow-method) to prioritize work, which categorizes tasks as **Must do**, **Should do**, **Could do**, or **Back burner**. I find it useful to label issues with these categories, and use the GitLab issue board to display the categories in a column view (see [Filing Issues](#filing-issues)).
 
 ## Testing
 
@@ -115,7 +115,21 @@ For these reasons, it is recommended to use code annotations for everything exce
 
 ## Filing Issues
 
-TODO
+> “Always start with an issue” says Job, VP of Product here at GitLab. Before you begin anything else, summarize your ideas in an issue and share it. It’s such a simple rule, but the impact is huge.
+
+*From the GitLab blog article [Always start with an issue](https://about.gitlab.com/blog/2016/03/03/start-with-an-issue/) by Heather McNamee*
+
+Starting with an issue is a fundamental practice in development projects. Issues provide a space to summarize and discuss ideas before any work begins. This approach promotes clear communication, helps in planning, and ensures that every task has a defined purpose. By creating an issue first, we can outline the task at hand, discuss potential approaches, and track progress in a structured manner. In short, issues are a crucial tool for managing work in a project, keeping everything organized and everyone on the same page.
+
+As mentioned previously, I use a variation of [the MoSCoW method](https://draft.io/example/moscow-method) to prioritize issues. Each issue should be labeled with one of the following categories:
+- **Must do**: Critical issues that must urgently be addressed. This includes bugs that cause the application to crash or break, as well as any other issues that prevent the application from functioning properly.
+- **Should do**: Important issues that should be addressed soon. This includes bugs that cause the application to behave unexpectedly, as well as any other issues that affect the user experience.
+- **Could do**: Issues that are not critical or important, but would be nice to have. This includes minor bugs that don't affect the user experience, as well as any other issues that are not urgent.
+- **Back burner**: Issues that are not critical or important, and can be put off indefinitely. This includes minor bugs that don't affect the user experience, as well as any other issues that are not urgent.
+
+GitLab has a feature called [Issue Boards](https://docs.gitlab.com/ee/user/project/issue_board.html) where issues are organized to columns based on their labels. I use this feature to display the MoSCoW categories in a column view. The issues can be dragged-and-dropped between columns to adjust their priority. [Labels can also be prioritized](https://docs.gitlab.com/ee/user/project/labels.html#set-label-priority) so that they can be sorted by priority in places other than the Issue Board page.
+
+GitHub as a similar feature to GitLab's Issue Boards called [Project Boards](https://docs.github.com/en/github/managing-your-work-on-github/about-project-boards).
 
 ## Version Control
 
