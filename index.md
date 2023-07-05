@@ -46,7 +46,7 @@ In general, the following types of documentation should be written:
 1. **`README.md`**: Every project should have a README file that provides an overview of the project, including its purpose, structure, and usage.
 2. **`CONTRIBUTING.md`**: Projects should provide documentation for contributors, including instructions for setting up the development environment, running tests, and submitting pull requests.
 3. **`CHANGELOG.md`**: Projects should maintain a changelog that lists all changes made to the project, including new features, bug fixes, and breaking changes.
-5. **API Documentation**: If a project includes an API, it should provide detailed documentation for each endpoint, including the HTTP method, URL, required parameters, and example responses. A useful tool for this is Swagger, which can automatically generate API documentation from code annotations.
+5. **API Documentation**: If a project includes an API, it should provide detailed documentation for each endpoint, including the HTTP method, URL, required parameters, and example responses. A useful tool for this is [Swagger](https://swagger.io/docs/), which can automatically generate API documentation from code annotations.
 4. **Developer Documentation**: For small projects, the `README.md` file might be sufficient for developer documentation. However, for larger projects, it might be useful to create a separate documentation website that provides more detailed information. Here are some examples of what this documentation might include:
    - **Getting Started Tutorial**:
 5. **User Documentation**: Some projects might require documentation for end users, such as a user manual or help guide. It might be useful to create a documentation website for this purpose.
